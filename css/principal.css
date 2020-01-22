@@ -1,0 +1,665 @@
+/*generales*/
+body{
+    line-height: 1;
+   
+}
+a{
+    text-decoration:none; 
+}
+header{
+/*  background-color: rgba(0,0,0,0.2);*/
+    background-color: rgb(85, 117, 141);
+    position:fixed;top:0;z-index: 99;width:100%;
+    line-height:1;
+        padding: 6px
+}
+
+# servicios h2{
+    color: rgb(85, 117, 141);
+}
+#servicios,#acerca,#clientes,#ultimostrabajos,#contacto,.cajared,#ultimostrabajoscaja{
+    width:80%;
+    margin: auto;
+        
+}
+#servicioscaja,#acercaja,#clientescaja{
+   height:100vh;
+    width: 100%;
+   
+        
+}
+#menu    {
+    list-style-type:none; 
+}
+#menu li a{
+    text-decoration:none;     
+}
+#jesus a{
+    text-decoration:none; 
+    font-size: 10px;color:white;
+}
+#jesus h6{
+    margin: 0;
+    
+}
+.redes{
+    list-style-type:none;
+    
+}
+.tele li {
+   list-style-type:none;  
+}
+.container-fluid{
+        padding: 0;
+}
+footer{
+     background-color: #ce590c;
+    color: white;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+   
+}
+   #banner{
+        background:url(../image/trabajo3.jpg)center center no-repeat;
+   height:100vh;
+        margin-top: 0;
+         background-size:cover;
+          animation:banneranimation 15s;
+         -webkit-animation:banneranimation 15s;
+    }
+    
+     @-webkit-keyframes banneranimation{
+    0%{height:100vh;background-size:800px 400px; }
+    50%{height:100vh; }
+    100%{height:100vh;background-size:1600px 800px; }
+    
+    
+}
+
+#jesus{
+    
+    display: block
+}
+#jesus spam{
+    display: block;
+}
+.botoncito{
+    background-color:white; 
+    border:0;
+    margin: 0 0 0 14px;
+    color:#55758d;
+    
+}
+.botoncito:hover{
+    color: #fff;
+    background-color: #cce6fc;
+    border-color:#cce6fc;
+}
+
+
+.container{
+     width:80%;height:400px; ;clear: both;background:url(../image/tecnologia2.jpg) no-repeat;background-size: cover;display:flex;justify-content: center;align-items: center;background-attachment: fixed;  
+}
+.numeros{
+    color: #fcfbfb;
+    padding: 10px;
+}
+
+
+/*generales*/
+/*movil*/
+
+
+@media screen and (max-width:768px){
+    
+    form{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        background-color: #55758d;
+        border: 0;
+        border-radius: 6px;
+        box-shadow: 0px 10px 2px;
+    }
+    input[type="text"],[type="email"],[type="apellido"],textarea{
+        width: 100%;
+        outline: 0;
+        padding: 8px;
+    }
+    label{
+        color:white;
+        padding: 8px;
+    }
+    #servicioscaja{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    #acercaja{
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        height: auto
+    }
+    
+    #clientescaja{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    
+    #ultimostrabajoscaja{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .redes{
+         display: flex;
+        justify-content: space-around;
+        
+    }
+    .cajared{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    
+    
+  
+    
+    .icono {
+        font-size: 4rem;
+    }
+    
+     #jesus a{
+    text-decoration:none; 
+        font-size:26px;color:white;}
+    #jesus{
+        display: flex;
+        justify-content: space-around;
+        background-color:transparent;
+    }
+    #jesus h6{
+    margin: 0;
+        font-size:1.5rem; 
+}
+    #menu{
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    }
+     #menu li a{
+    text-decoration:none; 
+        font-size:2rem;
+         color:#55758d;
+         
+}
+    #acercaja img{
+ 
+    box-shadow: 1px 10px;
+}
+#acercaja p{
+    box-shadow: 0px 10px;
+}
+    .cajaclientes{
+       /*padding: 4rem;
+        width: 100%;
+        border:4px solid :white;
+        border-bottom:white; */
+        
+    }
+    footer{
+        margin-top:4rem;
+    }
+    #jesus spam {
+        display: block;
+   font-size:14px; 
+    }
+    .btn-primary {
+    color: #fff;
+    background-color: #55758d;
+    border-color: #55758d;
+}
+    .btn-primary:hover {
+    color: #fff;
+    background-color: #55758d;
+        border-color: #55758d;}
+    .btn:focus {
+    outline: 0; 
+    -webkit-box-shadow: 0 0 0 2px rgba(2,117,216,.25); */
+        box-shadow: 0 0 0 0px ;}
+    #ultimostrabajoscaja{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #imagendosytres{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .tres a img{
+    width:100%;
+   
+    
+    
+    
+    
+}
+    .numeros{
+    color:white;
+    padding: 10px;
+    box-shadow: 0px 10px;
+    border-radius: 8px;
+    font-size: 2rem;
+    width: 50%;
+    margin: auto;}
+    
+    #acerca p{
+        font-size: 20px;
+    line-height: 1.5;
+    }
+   #acerca img{
+       border-radius: 8px 8px 0 0;
+    }
+    
+}/*finaldelmedia*/
+/*movil*/
+/*escritorio*/
+
+@media screen and (min-width:576px){
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+    #cierre{
+        display: block;
+        height: auto;
+    }
+     #banner{
+        background:url(../image/trabajo3.jpg)center center no-repeat ;
+   height:100vh;
+        margin-top: 0;
+         background-size:cover;
+          animation:banneranimation 15s;
+         -webkit-animation:banneranimation 15s;
+    }
+    
+     @-webkit-keyframes banneranimation{
+    0%{height:100vh;background-size:1200px 800px; }
+    50%{height:100vh; }
+    100%{height:100vh;background-size:2400px 1600px; }
+    
+    
+}
+    
+    
+    #menu{
+        
+        display: flex;
+        justify-content: space-around;
+        margin: 17px 0 0 0;
+        background-color: transparent;
+        box-shadow:none;
+    }
+    #menu li a{
+       margin: 0 6px 0 0;
+        color:white;
+        font-size:1rem;
+}
+    
+/*
+    #jesus{
+        background-color: #0275d8;
+    padding: 4px;
+*/
+
+    }
+    #jesus h6{
+    margin: 0;
+    
+}
+/*
+    #jesus a{
+    text-decoration:none; 
+        font-size: 10px;color:white;}
+*/
+    
+    .redes{
+         display: flex;
+        justify-content: space-around;
+        
+        
+    }
+.redes li a{
+       color:white;
+        
+        
+    }
+.tele li a{
+    color:white; 
+    font-size: 2rem;
+}
+    #servicioscaja{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+     #acercaja{
+         display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+    #acercaja p{
+        text-align: left;
+        padding: 0 0 0 10px;
+        background-color: rgb(85, 117, 141);
+        color:white;
+        padding: 12px;
+    }
+     #acercaja img{
+    box-shadow: 0px 10px 2px rgba(0,0,0,0.2);
+        border-radius: 8px;
+}
+    #clientescaja{
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+
+    }
+    #ultimostrabajoscaja{
+        margin-top: 6rem;
+        width: 80%;
+        height: auto;
+        
+       
+    }
+#ultimostrabajos h2
+{
+    margin-top:  6rem;
+     color: #ce590c;
+}
+footer{
+        margin-top:4rem;
+    }
+.redes li{
+    font-size: 2rem;
+}
+.tele li{
+    font-size: 2rem;
+}
+.tele li a{
+      font-size: 3rem;
+     display: inline-block;
+     -webkit-animation: flecha-animada 2s ease-in-out infinite;
+          animation: flecha-animada 2s ease-in-out infinite; }
+
+@-webkit-keyframes flecha-animada {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); }
+  50% {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px); }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
+
+@keyframes flecha-animada {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); }
+  50% {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px); }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
+}
+#servicioscaja article{
+    border-bottom: 4px solid rgb(85, 117, 141);
+    padding: 20px;
+    border-radius:10%;
+    color:rgb(85, 117, 141);
+}
+.numeros{
+    color:white;
+    padding: 20px;
+    box-shadow: 0px 10px;
+    border-radius: 8px;
+    font-size: 2rem;};
+}
+.numeros H6{
+    
+    font-size: 2rem};
+
+  form{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        background-color:#ce590c;
+        border: 0;
+        border-radius: 6px;
+        box-shadow: 0px 10px 2px;
+    }
+    input[type="text"],[type="email"],[type="apellido"],textarea{
+        width: 100%;
+        outline: 0;
+        padding: 6px;
+    }
+form{
+    width: 60%;
+    margin: auto;
+    background-color: #ce590c;
+    box-shadow: 0px 10px 2px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+label{
+    padding: 8px;
+    color:white;
+}
+.botoncito{
+    background-color:white; 
+    border:0;
+    margin: 0 0 0 14px;
+    color:#55758d;
+    
+}
+.botoncito:hover{
+    color: #fff;
+    background-color: #cce6fc;
+    border-color:#cce6fc;
+}
+
+#ultimostrabajoscaja{
+     
+    
+/*
+       
+        display: flex;
+        justify-content: space-around;
+    align-items: center;
+*/
+   
+    }
+
+
+#servicioscaja article{
+    border-bottom: 4px solid rgb(85, 117, 141);
+    padding: 20px;
+    border-radius:10%;
+    color:rgb(85, 117, 141);
+}
+
+.uno{
+     width: 100%;
+    background-color: #ce590c;
+     position: relative;
+  display: block;
+}
+.uno a:hover{
+    opacity: .16;
+     transition: opacity 0.3s ease;
+  
+}
+.uno img{
+    width: 100%; 
+}
+.dos{
+     background-color: #ce590c;
+    position: relative;
+    display: block;
+    
+}
+.dos  img{
+     width: 100%; 
+}
+.dos a:hover{ 
+    opacity: .16;
+     transition: opacity 0.3s ease;
+}
+.tres{
+    background-color: #ce590c;
+    position: relative;
+    display: block;
+    
+
+    
+}
+.tres a:hover{ 
+     opacity: .16;
+     transition: opacity 0.3s ease;
+}
+
+.tres img{ 
+    width: 100%; 
+}
+#imagendosytres{
+      width:203px;
+    
+    
+}
+#ultimostrabajos{
+    width:60%; 
+}
+#imagendosytres{
+/*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+*/
+}
+#ultimostrabajoscaja{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   box-shadow: 0px 10px #bdcfdd;
+    max-width: 480px;
+   
+}
+#clientescaja article{
+   color: #ce590c;
+    box-shadow: 0px 10px;
+    border-radius: 8px;
+}
+#acerca h2{
+      color: #ce590c;
+}
+#ultimos trabajos h2{
+    
+}
+#contacto h2{
+     margin-top: 8rem;
+}
+form{
+    margin-top: 6rem;
+}
+#ultimostrabajoscaja article a{
+  
+   
+   
+}
+.titulo spam{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(244, 98, 58, 0.9);
+  transition: opacity .5s ease;
+  text-align: center;
+   
+    
+    
+}
+.titulo  spam:hover{
+    opacity: 1;
+     
+}
+.ir-arriba {
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  font-size: 1rem;
+  color: #55758d;
+  text-decoration: none;
+  z-index: 99999;
+  line-height: 0;
+  display: none;
+  -webkit-transition: all .5s ease;
+          transition: all .5s ease; }
+
+.ir-arriba:hover,
+.ir-arriba:focus {
+  outline: 0;
+  text-decoration: none;
+  color: #ce590c; }
+[required]{
+    box-shadow:  0px 0px 5px 5px #55758d;
+}
+
+ 
+
+}/*finaldelmedia*/
+/*escritorio*/
+
+@media screen and (min-width:783px) and (max-width:570px){
+    #menu li a{
+        font-size:10px; 
+        color:red;
+    }
+    
+    
+}
+
